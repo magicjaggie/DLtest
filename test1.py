@@ -31,4 +31,4 @@ model.fit(X,Y, epochs = 150, batch_size = 10)
 
 # Evaluate the Keras model
 _, accuracy = model.evaluate(X, Y)
-print('Accuracy = ', accuracy)
+print('Accuracy = %.2f' % (accuracy*100), '%')
